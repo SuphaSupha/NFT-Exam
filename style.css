@@ -1,0 +1,140 @@
+h1, p, div, section {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.topnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin: 12px;
+  font-weight: 300;
+}
+
+.topnav a:last-child {
+  color: #ff00d9;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+}
+
+.hero .navigation {
+  margin: 0 36px;
+}
+
+.hero h4 {
+  font-size: 12px;
+  color: #d3008d;
+}
+
+.hero h2 {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 12px;
+}
+
+.hero .btn {
+  padding: 16px 32px;
+  background-color: white;
+  border-radius: 50px;
+  border: 2px solid orangered;
+}
+
+.hero .decoration {
+  height: 100%;
+}
+
+.hero .decoration img {
+  height: 100%;
+  margin: 0 60px;
+}
+
+.info-tab {
+  height: 240px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ee00ff), color-stop(red), to(#c8ff00));
+  background-image: linear-gradient(to bottom right, #ee00ff, red, #c8ff00);
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+.info-tab .info {
+  padding: 120px 0px 0px 60px;
+}
+
+.sponcors {
+  padding-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.auction {
+  padding: 32px 0px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards .card {
+  margin-right: 20px;
+  background-color: rgba(128, 128, 128, 0.123);
+  width: 26%;
+  border-radius: 20px;
+  padding-bottom: 12px;
+}
+
+.cards .card img {
+  width: 100%;
+}
+
+.cards .card .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px 20px;
+}
+
+.cards .card .prices img {
+  width: 10px;
+}
+/*# sourceMappingURL=style.css.map */
